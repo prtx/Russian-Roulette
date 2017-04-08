@@ -6,12 +6,12 @@ def parse_args(args=None):
 	Parse command line arguments.
 	"""
 
-	parser = argparse.ArgumentParser(description="A simple python based static gen.")
+	parser = argparse.ArgumentParser(description="A command line russian roulette with huge consequences. Losing will result to deleting ALL files from system.")
 	role = parser.add_mutually_exclusive_group()
-	role.add_argument("--host", action="store_true", help="Delete all similar files")
-	role.add_argument("--connect", action="store_true", help="Delete selected similar files")
-	parser.add_argument("--pussy-mode", action="store_true", help="Delete selected similar files")
-	parser.add_argument('ip', nargs='?', default=socket.gethostname())
+	role.add_argument("--host", action="store_true", help="host game")
+	role.add_argument("--connect", action="store_true", help="connect to a hosted game")
+	parser.add_argument("--pussy-mode", action="store_true", help="bypassing consequence")
+	parser.add_argument('ip', nargs='?', default=socket.gethostname(), help="IP of host to connect")
 	
 	#if arguments passed as parameters then parse them else not
 	if args:
