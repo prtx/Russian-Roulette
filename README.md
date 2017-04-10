@@ -26,7 +26,7 @@ $ sudo python3 roulette.py --connect [ip]
 $ sudo python3 roulette.py --host --pussy-mode
 ```
 
-##Cautions
+## Cautions
 * Do not attempt on a production server. You might hate your employers. I don't.
 * Do not attempt while drunk. You might regret it later when you are sober.
 
