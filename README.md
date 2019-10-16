@@ -30,4 +30,4 @@ $ sudo python3 roulette.py --host --pussy-mode
 * Do not attempt on a production server. You might hate your employers. I don't.
 * Do not attempt while drunk. You might regret it later when you are sober.
 
-If you end up doing it anyway I'd love to listen. You can catch me on [@Prt_X](https://twitter.com/Prt_X).
+If you end up doing it anyway I'd love to listen. You can catch me on [@prtxpratik](https://twitter.com/prtxpratik).
